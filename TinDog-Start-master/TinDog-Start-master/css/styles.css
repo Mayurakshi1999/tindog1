@@ -1,0 +1,148 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: inherit;
+
+}
+p{
+  color: #393e46;
+}
+.col-lg-4{
+  text-align: center;
+
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.icon-text{
+  width: 60%;
+  margin: 0 auto 50px auto;
+  font-family: "Ubuntu";
+
+}
+.title {
+  background-color: #ff4c68;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-bottom: 3%;
+}
+.container-fluid {
+  padding: 0;
+}
+
+
+.download-button{
+  margin: 20px 0 50px 0;
+}
+.nav-item{
+  padding: 0 28px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Ubuntu"
+}
+
+.fas{
+  color: #fa877f;
+  font-size: 350%;
+  margin-bottom: 10px;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  text-align: center;
+
+  background-color: #fa877f;
+  font-family: "Raleway";
+  color: white;
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.subtitle{
+  font-size: 1rem;
+}
+
+.testimonials-img{
+  border-radius: 100%;
+  margin: 3% 1%;
+  width: 10%;
+}
+#press{
+  background-color: #fa877f;
+  text-align: center;
+  padding: 3% 15% 7% 15%;
+}
+.press-img{
+  width: 20%;
+  margin-left: 20px;
+}
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.mont-title{
+  font-family: "Montserrat";
+}
+.card-text{
+  font-family: "Ubuntu";
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px){
+  .title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15% 4% 15%;
+}
+.footer-text1{
+  font-family: "Montserrat";
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-bottom: 1%;
+}
+#footer{
+  text-align: center;
+  background-color: white;
+  padding: 5% 0 3% 0;
+  font-family:"Ubuntu";]
+}
+.btn{
+  font-family: "Ubuntu";
+  margin-right: 1%;
+}
+.footer-logo{
+  color: black;
+  font-size: 100%;
+  padding-left: 1%;
+}
+.footer-logo:hover{
+  color: #ff4c68;
+}
+.footer-text{
+  font-size: 90%;
+  text-align: center;
+}
